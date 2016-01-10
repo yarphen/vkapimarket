@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.sheremet;
 
 import java.io.ByteArrayInputStream;
