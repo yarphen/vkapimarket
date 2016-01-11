@@ -25,7 +25,7 @@ public class VKTestServlet extends HttpServlet {
 	DatastoreService db = DatastoreServiceFactory.getDatastoreService();
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
-		resp.setContentType("");
+		{
 		if (req.getParameter("code")!=null){
 			URL url = new URL("https://oauth.vk.com/access_token?client_id=5214831&client_secret=SUFnI4xRqCT0PiN89dv5&redirect_uri=https://vk-uploader.appspot.com/auth&code="+req.getParameter("code"));
 			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -92,5 +92,6 @@ public class VKTestServlet extends HttpServlet {
 			resp.getWriter().println(user_id);
 		}
 		resp.sendRedirect("/");
+		}
 	}
 }

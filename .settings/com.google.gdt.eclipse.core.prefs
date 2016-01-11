@@ -1,9 +1,7 @@
-<<<<<<< HEAD
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=51d224f51a6aa8eddef77a8bb54edcc8f9b74bd9
 eclipse.preferences.version=1
+jarsExcludedFromWebInfLib=
 warSrcDir=war
 warSrcDirIsOutput=true
-=======
-eclipse.preferences.version=1
-warSrcDir=war
-warSrcDirIsOutput=true
->>>>>>> 51d224f51a6aa8eddef77a8bb54edcc8f9b74bd9
